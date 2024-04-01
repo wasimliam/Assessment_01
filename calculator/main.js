@@ -1,7 +1,7 @@
 
 function Calculate() {
-  let first = parseInt(document.getElementById('selector1').value);
-  let sec = parseInt(document.getElementById('selector2').value);
+  let first = parseFloat(document.getElementById('selector1').value);
+  let sec = parseFloat(document.getElementById('selector2').value);
   let op = document.getElementById('mathValue').value;
   let result;
 
